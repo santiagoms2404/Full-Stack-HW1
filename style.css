@@ -1,56 +1,83 @@
 
-    body{
-        font-family: Verdana; 
-        font-weight: normal; 
-        font-size: large;
-        background-color: black;
-    }
-    
-    header {
-        text-align:center;
-        font-size: 200%;
-        color: white; 
-        text-shadow: 6px 6px gray;
-    }
+body{
+    font-family: Verdana; 
+    font-weight: normal; 
+    font-size: large;
+    background-color: black;
+}
 
-    h1 {
-        border-bottom: 5px solid white;
-        font-size: 150%;
-      } 
+header {
+    text-align:center;
+    font-size: 200%;
+    color: white; 
+    text-shadow: 6px 6px gray;
+}
 
-    h2 {
-        font-size: 150%;
-        color: white;
-    }
+h1 {
+    border-bottom: 5px solid white;
+    font-size: 150%;
+    } 
 
-    .leftHeader {
-        text-align: left;
-    }
+h2 {
+    font-size: 150%;
+    color: white;
+}
 
-    .rightHeader {
-        text-align: right;
-    }
+h3 {
+    font-size: 150%;
+    color: white;
+}
 
 
-    .borderStyle1 {
-        padding: 50px;
-        box-shadow: 25px 20px #888888;
-        border: 10px solid white;
-        width: 800px;
-        height: 400px;
-        padding: inherit;  
-        color: white;
-        text-align: justify;
-        font-size: 150%;
-      }
-    
-    .feedback {
-        color: white;
-        font-size: 125%;
+.leftHeader {
+    text-align: left;
+}
+
+.rightHeader {
+    text-align: right;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: black;
+    padding: 10px;
+}
+
+.borderStyle1 {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 50px;
+    box-shadow: 25px 20px #888888;
+    border: 10px solid white;
+    width: 800px;
+    height: 400px;
+    padding: inherit;  
+    color: white;
+    text-align: justify;
+    font-size: 150%;
     }
 
-    .download{
-        text-align: right;
-        color: white;
-        font-size: 125%;
-    }
+.image {
+    float: left;
+    background-color: gray;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+
+.feedback {
+    float: right;
+    color: white;
+    font-size: 125%;
+}
+
+.download{
+    color: white;
+    font-size: 125%;
+}
